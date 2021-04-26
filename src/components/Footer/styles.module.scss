@@ -1,0 +1,46 @@
+.footer {
+  box-sizing: content-box;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 4.25rem;
+  background: var(--blue-800);
+  border-top: 0.25rem solid var(--yellow-800);
+
+  .contentContainer {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    p {
+      font-size: 2.25rem;
+      color: var(--white);
+    }
+
+    .social {
+      position: absolute;
+      left: 10rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+
+      a {
+        display: inline-block;
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+          width: 2rem;
+          height: 2rem;
+        }
+      }
+    }
+  }
+}
